@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="3" time="16.56">
+    <testcase classname="To verify the fuctionality on a login page" name="To validate that user is able to login the website using valid username and password" time="9.562">
+        <system-out><![CDATA[Given User is able to open the url "https://www.saucedemo.com/".............passed
+And User is able to enter the UserId 'standard_user'........................passed
+And User is pass the PassId 'secret_sauce'..................................passed
+When Tap on the login button................................................passed
+Then User should be navigated to the next page..............................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="To verify the fuctionality on a login page" name="To validate that user is able to login the website using valid username and password 2" time="4.218">
+        <system-out><![CDATA[Given User is able to open the url "https://www.saucedemo.com/".............passed
+And User is able to enter the UserId 'problem_user'.........................passed
+And User is pass the PassId 'secret_sauce'..................................passed
+When Tap on the login button................................................passed
+Then User should be navigated to the next page..............................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="To verify the fuctionality on a login page" name="To validate that all the product displayed properly" time="2.343">
+        <system-out><![CDATA[Given User is able to open the url "https://www.saucedemo.com/".............passed
+And User entered the UserId "standard_user".................................passed
+And User passed the PassId "secret_sauce"...................................passed
+When click on the login button..............................................passed
+Then User should able to navigated to next page where he able to see the all the product details..passed
+]]></system-out>
+    </testcase>
+</testsuite>
